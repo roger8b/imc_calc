@@ -5,7 +5,7 @@ Description=goimcacalc
 Type=simple
 Restart=always
 RestartSec=5sec
-ExecStart=/home/rm/go/imc_calc/main
+ExecStart=/go/src/github.com/roger8b/imc_calc
 
 [Install]
 WantedBy=multi-user.target
